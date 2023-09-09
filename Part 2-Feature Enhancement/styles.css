@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Style the header */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Style the form for adding users */
+#addUserForm {
+  text-align: center;
+  margin: 20px auto;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 200px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style the user list */
+#usersList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+/* Style the search input */
+#searchUser {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+/* Style the pagination */
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Debugging and Feature Enhancement Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" async></script>
+</head>
+<body>
+  <h1>User Management App</h1>
+  
+  <!-- Add User Form -->
+  <div>
+    <h2>Add User</h2>
+    <form id="addUserForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <button type="submit">Add</button>
+    </form>
+  </div>
+
+  <!-- Search User -->
+  <div>
+    <h2>Search User</h2>
+    <input type="text" id="searchUser" placeholder="Search by name">
+  </div>
+
+  <!-- User List -->
+  <div class="user-list-container">
+    <h2>User List</h2>
+    <ul id="usersList"></ul>
+    <div class="pagination" id="pagination"></div>
+  </div>
+</body>
+</html>
