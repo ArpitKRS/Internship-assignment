@@ -9,8 +9,6 @@ This is a simple web application for managing a list of users. It allows you to 
 - [Usage](#usage)
 - [Debugging Approach](#debugging-approach)
 - [Technical Details](#technical-details)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
